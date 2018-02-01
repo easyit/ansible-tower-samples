@@ -1,0 +1,7 @@
+- name: Hello DXC Sample
+  hosts: dxc
+  tasks:
+    - name: Say Hello 
+      debug:
+        msg: "Hello DXC!"
+
